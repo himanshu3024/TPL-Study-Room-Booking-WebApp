@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TPL Study Room Booking",
   description: "Toronto Public Library - Staff Internal Room Booking System",
+  icons: {
+    icon: "https://www.torontopubliclibrary.ca/favicon.ico",
+  },
 };
 
 import ClientLayout from "./ClientLayout";
