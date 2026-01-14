@@ -1,4 +1,4 @@
-import { Branch, MapPin } from "lucide-react";
+import { Building2, MapPin } from "lucide-react";
 
 export function Header() {
     return (
