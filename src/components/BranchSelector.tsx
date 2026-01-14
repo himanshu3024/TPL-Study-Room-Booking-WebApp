@@ -32,7 +32,7 @@ export function BranchSelector({ onNextAvailable }: { onNextAvailable?: (roomId:
             return;
         }
 
-        // Logic: Find first 60m slot starting from NOW (rounded up to nearest 5m)
+        // Logic: Find first 60m slot starting from NOW. (rounded up to nearest 5m)
         const now = new Date();
         const currentH = now.getHours();
         const currentM = Math.ceil(now.getMinutes() / 5) * 5; // Round to next 5m
